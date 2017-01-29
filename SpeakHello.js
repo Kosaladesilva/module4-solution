@@ -1,3 +1,4 @@
+
 // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 (function (window) {
@@ -13,7 +14,7 @@ var speakWord = "Hello";
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-helloSpeaker.speak = function(name) {
+helloSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
 }
 
@@ -21,7 +22,6 @@ helloSpeaker.speak = function(name) {
 // 'helloSpeaker' on the global scope as well.
 // See Lecture 52, part 2
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
-// xxxx.xxxx = helloSpeaker;
 window.helloSpeaker = helloSpeaker;
 
 })(window);
