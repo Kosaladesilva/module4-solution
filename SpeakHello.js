@@ -27,11 +27,11 @@
 //})(window)
 
 (function (window){
-var helloSpeaker+{};
- helloSpeaker.name = "Speaker";
- var Speaker = "hello";
- helloSpeaker.hello = fucntion(){
-  console.log(speaker + helloSpeaker.name);
+var helloSpeaker = {};
+ helloSpeaker.name = "speak";
+ var speakWorld = "hello";
+ fucntion speak(name){
+  console.log(speakWorld + helloSpeaker.name);
  }
  window.helloSpeaker = hello.Speaker;
 
