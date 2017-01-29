@@ -26,8 +26,13 @@
 
 //})(window)
 
-var name =" Speaker";
-function helloSpeaker(){
-  
- console.log("Hello" + name);
-}
+(function (window){
+var helloSpeaker+{};
+ helloSpeaker.name = "Speaker";
+ var Speaker = "hello";
+ helloSpeaker.hello = fucntion(){
+  console.log(speaker + helloSpeaker.name);
+ }
+ window.helloSpeaker = hello.Speaker;
+
+})(window);
